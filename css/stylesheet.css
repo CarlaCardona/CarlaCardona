@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Nova+Mono&display=swap');
+
+
+body {
+    font-family: figtree;
+    color: #551478;
+    background-image: url("../images/homepage-gradient-img.svg");
+    text-align: center;
+}
+
+h1 {
+    font-family: NovaMono;
+    color: #A82076;
+}
+
+h2 {
+    font-family: figtree;
+    font-weight: 600;
+    color: #A82076;
+    text-align: center;
+}
+
+/* content container gradient control */
+.page-container {
+    background: linear-gradient(
+        to bottom, 
+        transparent 0%,
+        transparent 50%,
+        white 100%);
+}
+
+/* this is our nav css */
+
+.top-nav {
+    width: 1440px;
+    margin: 0 auto;
+    padding: 1.5em 0;
+}
+
+.main-nav {
+    display: block;
+    text-decoration: none;
+}
+
+.top-nav, .main-nav {
+    display: flex;
+}
+
+.main-nav {
+    margin: 0 auto;
+    padding: 35px 0;
+}
+
+.main-nav a {
+    display: block;
+    color: #551478;
+    text-decoration: none;
+    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.main-nav a:hover {
+    color: #A82076;
+    font-weight: bold;
+    font-size: 1.2em;
+    transform: translateY(-1px);
+}
+
+
+ul {
+    font-weight: 600;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 80px;
+}
+
+ul li{
+    cursor: pointer;
+}
+
+/*this is our hero section css*/
+
+.hero {
+    position: relative;
+    height: 746px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.tagline {
+    text-align: center;
+    z-index: 1;
+}
+
+.name {
+    position: absolute;
+    font-family: NovaMono;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #A82076;
+    pointer-events: none;
+    animation: float 4s ease-in-out infinite;
+}
+
+.name1 {
+    top: 20%;
+    left: 25%;
+    animation-delay: 0s;
+}
+
+.name2 {
+    top: 25%;
+    right: 22%;
+    animation-delay: 2s;
+}
+
+.name3 {
+    bottom: 18%;
+    left: 35%;
+    animation-delay: 4s;
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-20px)
+    }
+}
+
+/* this is our oigin story css */
+
+
+
+
+/* this is our projects css */
