@@ -11,7 +11,7 @@ Aspiring full stack designer.
 - Learning front-end development
 
 ## Let's connect
-📧 [crcmtm@gmail.com](mailto:crcmtm@gmail.com)<br>
+📧 [c_ardona@hotmail.com](mailto:c_ardona@hotmail.com)<br>
 💼 [LinkedIn](https://www.linkedin.com/in/carlacardonam/)
 
 
