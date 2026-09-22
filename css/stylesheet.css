@@ -4,7 +4,12 @@
 body {
     font-family: figtree;
     color: #551478;
-    background-image: url("../images/homepage-gradient-img.svg");
+    background: radial-gradient(
+    ellipse at 55%,
+    #D5EC9D,
+    #D5EC9D 5%,
+    #BAD1FF 75%,
+    #BAD1FF 75%);
     text-align: center;
 }
 
@@ -21,12 +26,14 @@ h2 {
 }
 
 /* content container gradient control */
+
 .page-container {
     background: linear-gradient(
         to bottom, 
         transparent 0%,
         transparent 50%,
         white 100%);
+
 }
 
 /* this is our nav css */
