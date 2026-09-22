@@ -1,4 +1,4 @@
-## Hi, I'm Carla 🛸⊹ ࣪ ˖ 
+## Hi, I'm Carla 🛸⊹ ࣪ 
 
 Interactive Design Student.
 Aspiring full stack designer.
